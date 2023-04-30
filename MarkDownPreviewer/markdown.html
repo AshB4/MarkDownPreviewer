@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Markdown Previewer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.0/marked.min.js"></script>
+</head>
+<body>
+  <div id="container">
+    <div id="editor-container">
+      <h2>Editor</h2>
+      <textarea id="editor">
+ Heading = Ladies Jacket
+
+ Subheading = Ladies Purse
+
+[Link](https://www.redbubble.com)
+
+
+- Ladies Jacket
+- Yellow Purse
+
+> 99% mark down
+
+**Ladies Jacket**
+
+![Image](https://images.pexels.com/photos/2002717/pexels-photo-2002717.jpeg)
+      </textarea>
+    </div>
+    <div id="preview-container">
+      <h2>Preview</h2>
+      <div id="preview">
+        <h3>Ladies Jacket</h3>
+        <img src="https://images.pexels.com/photos/2002717/pexels-photo-2002717.jpeg"></img>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
